@@ -15,9 +15,8 @@ class Line{
 };
 
 // Member functions definitions including constructor
-Line::Line(double len){
+Line::Line(double len): length(len){
     cout << "Object is being created, length = " << len << endl;
-    length = len;
 }
 
 Line::~Line(void){
